@@ -37,7 +37,7 @@ invés de somente 3, onde n será dado pelo usuário.
 
 Os programas estão escritos em Python 3.
 
-Os nomes dos arquivos com os códigos font das respostas carregam o número da questão que respondem no final.
+Os nomes dos arquivos com os códigos fonte das respostas carregam o número da questão que respondem no final.
 
 Os scripts search.py, validation.py e integer_square_root.py não são implementações das resoluções dos exercídios, mas definições de funções de auxílio:
 
