@@ -39,4 +39,10 @@ Os programas estão escritos em Python 3.
 
 Os nomes dos arquivos com os códigos font das respostas carregam o número da questão que respondem no final.
 
+Os scripts search.py, validation.py e integer_square_root.py não são implementações das resoluções dos exercídios, mas definições de funções de auxílio:
+
+search.py implementa uma busca binária.
+validation.py implementa uma função para facilidar a validação da entrada do usuário, aliviando a escrita de código boilerplate.
+integer_square_root.py implementa função que encontra o menor inteiro mais próximo da raiz quadrada de um número em O(log n).
+
 ---
