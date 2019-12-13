@@ -12,7 +12,10 @@ primes = [2, 3]
 
 if __name__ == '__main__':
 
-    print(sys.argv)
+    if len(sys.argv) < 2:
+        print('\nInformar tempo a rodar o programa, em segundos.\nEx:\n    $ python3 exer_02.py 60\n')
+        exit(1)
+
     time_limit = sys.argv[1]
     time_limit = float(time_limit)
 

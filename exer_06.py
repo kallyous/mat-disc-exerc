@@ -24,7 +24,7 @@ def mdc_eucli_ext(a, b):
 
 
 if __name__ == '__main__':
-    print('\n ----- Máximo Divisor Comum - Teorema de Euclides Extendido -----')
+    print('\n ----- Teorema de Euclides Extendido para encontrar a*s + b*t = r -----')
     while True:
         opt = input('\nEntre dois números separados por espaço\n > ')
         args = opt.split()
@@ -40,7 +40,7 @@ if __name__ == '__main__':
         res, coef = mdc_eucli_ext(a, b)
 
         print(f'\nmdc({a},{b}) = {res}\n')
-        print('Combinações lineares encontradas, na forma a*m + b*n = r :   ')
+        print('Combinações lineares encontradas, na forma a*s + b*t = r :   ')
 
         for i in range(0, len(coef)):
             print('  {}*({}) + {}*({}) = {}'.format(
