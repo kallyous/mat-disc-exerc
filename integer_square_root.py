@@ -1,4 +1,3 @@
-
 def isqrt(x):
     """Retorna inteiro menor mais próximo da raiz quadrada de númeors que não possúem raiz
         quadrada inteira, e a raiz quadrada exata de números que possúem raiz perfeita."""
@@ -9,7 +8,7 @@ def isqrt(x):
 
     # Usand busca binária, encontra a raiz desejada
     start = 0
-    end = x // 2 # Raiz nunca será maior que x/2
+    end = x // 2  # Raiz nunca será maior que x/2
     while (start <= end):
         mid = (start + end) // 2
 
@@ -29,5 +28,5 @@ def isqrt(x):
                 maior que X. Assim, apenas ajustamos o limite à direita da busca binária."""
             end = mid - 1
 
-    """ Ao sair do laço sem mid*mid==x, ans possui o menir inteiro mais pŕoximo da raiz desejada."""
+    """ Ao sair do laço sem mid*mid==x, ans possui o menor inteiro mais pŕoximo da raiz desejada."""
     return ans

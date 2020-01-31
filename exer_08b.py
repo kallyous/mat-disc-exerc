@@ -52,7 +52,7 @@ if __name__ == '__main__':
 
             sol = []
             for i in range(0, d):
-                sol.append(ns + i*M)
+                sol.append(ns + i * M)
 
             print('  SOLUÇÂO:', sol)
 

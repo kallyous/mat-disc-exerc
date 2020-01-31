@@ -1,6 +1,5 @@
 from exer_06 import mdc_eucli_ext
 
-
 if __name__ == '__main__':
     print('\n ----- Inverso de  a mod b  -----')
     while True:

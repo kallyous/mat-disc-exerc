@@ -1,5 +1,6 @@
 from exer_03 import find_prime_factors
 
+
 def mdc(a, b):
     """Máximo Divisor Comum"""
     factors_a = find_prime_factors(a)

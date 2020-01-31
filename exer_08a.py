@@ -27,5 +27,6 @@ if __name__ == '__main__':
             x = b * coef[i]['m']
             print(f'  {a}  e  {m}  são coprimos')
             print(f'  O inverso de  {a} mod {m} = 1  é  {coef[i]["m"]}')
-            print(f'  A solução geral de  {a}x ≅ {b} mod {m}  será  {x % m} + {m}k  com k sendo um algum número inteiro.')
+            print(
+                f'  A solução geral de  {a}x ≅ {b} mod {m}  será  {x % m} + {m}k  com k sendo um algum número inteiro.')
             print(f'  {x % m}  é a única solução entre  0  e  {m}')
